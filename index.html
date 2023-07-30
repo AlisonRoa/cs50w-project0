@@ -1,76 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <!-- Metaetiquetas: meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <!-- Metaetiquetas: meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-        <title>HomePage: Alison Roa</title>
+    <title>HomePage: Alison Roa</title>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="style/style.css">        
-    </head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
 
-    <body>
-        <!-- SideMenu -->
-        <div id="sidemenu" class="navbar bg-dark navbar-dark d-flex flex-column align-items-center">
-            <!-- Header -->
-            <div id="header" class="w-100">
-                <div id="title" class="text-center"><span>Hola, mundo!</span></div>
+<body>
+    <!-- Bootstrap grid structure -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- SideMenu -->
+            <div id="sidemenu" class="navbar bg-dark navbar-dark d-flex flex-column align-items-center col-md-2">
+                
+                <!-- Header -->
+                <div id="header" class="w-100">
+                    <div id="title" class="text-center"><span>Hola, mundo!</span></div>
+                </div>
+
+                <!-- Profile -->
+                <div id="perfil">
+                    <div id="foto"><img src="img/perfil-img.png" alt="Foto de Perfil"></div>
+                    <div id="name" class="text-center"><span>Mi nombre</span></div>
+                </div>
+
+                <!-- Items -->
+                <div id="menu-items" class="w-100">
+                    <div class="items">
+                        <a href="#" class="d-flex align-items-center text-decoration-none text-light">
+                            <div class="icon"><img src="img/icons/puzzle-icon.png" alt=""></div>
+                            <div class="title">Proyectos</div>
+                        </a>
+                    </div>
+
+                    <div class="item separador"></div>
+
+                    <div class="items">
+                        <a href="#" class="d-flex align-items-center text-decoration-none text-light">
+                            <div class="icon"><img src="img/icons/puzzle-icon.png" alt=""></div>
+                            <div class="title">Proyectos</div>
+                        </a>
+                    </div>
+
+                    <div class="item separador"></div>
+
+                    <div class="items">
+                        <a href="#" class="d-flex align-items-center text-decoration-none text-light">
+                            <div class="icon"><img src="img/icons/puzzle-icon.png" alt=""></div>
+                            <div class="title">Proyectos</div>
+                        </a>
+                    </div>
+
+                    <div class="item separador"></div>
+
+                    <div class="items">
+                        <a href="#" class="d-flex align-items-center text-decoration-none text-light">
+                            <div class="icon"><img src="img/icons/puzzle-icon.png" alt=""></div>
+                            <div class="title">Proyectos</div>
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <!-- Profile -->
-            <div id="perfil">
-                <div id="foto" class="text-center"><img src="img/perfil-img.png" alt="Foto de Perfil"></div>
-                <div id="name" class="text-center"><span>Mi nombre</span></div>
-            </div>
-
-            <!-- Items -->
-            <div id="menu-items" class="w-100">
-                <div class="items" class="w-100">
-                    <a href="#" class="d-flex align-items-center text-decoration-none text-light">
-                        <div class="icon"><img src="img/icons/puzzle-icon.png" alt=""></div>
-                        <div class="title">Proyectos</div>
-                    </a>
-                </div>
-
-                <div class="item separador"></div>
-
-                <div class="items" class="w-100">
-                    <a href="#" class="d-flex align-items-center text-decoration-none text-light">
-                        <div class="icon"><img src="img/icons/puzzle-icon.png" alt=""></div>
-                        <div class="title">Proyectos</div>
-                    </a>
-                </div>
-
-                <div class="item separador"></div>
-
-                <div class="items" class="w-100">
-                    <a href="#" class="d-flex align-items-center text-decoration-none text-light">
-                        <div class="icon"><img src="img/icons/puzzle-icon.png" alt=""></div>
-                        <div class="title">Proyectos</div>
-                    </a>
-                </div>
-
-                <div class="item separador"></div>
-
-                <div class="items" class="w-100">
-                    <a href="#" class="d-flex align-items-center text-decoration-none text-light">
-                        <div class="icon"><img src="img/icons/puzzle-icon.png" alt=""></div>
-                        <div class="title">Proyectos</div>
-                    </a>
-                </div>
-
-            </div>
+            <!-- Content -->
+            <div id="main-container" class="container col-md-10"></div>
         </div>
-        
-        <!-- Content -->
-        <div id="main-container" class="container"></div>
-        
-        <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    </body>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
 </html>
