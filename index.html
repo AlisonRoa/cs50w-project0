@@ -15,22 +15,23 @@
     </head>
 
     <body>
-        <div id="sidemenu" class="menu-collapse">
+        <!-- SideMenu -->
+        <div id="sidemenu" class="navbar bg-dark navbar-dark d-flex flex-column align-items-center">
             <!-- Header -->
-            <div id="header">
-                <div id="title"><span>Hola, mundo!</span></div>
+            <div id="header" class="w-100">
+                <div id="title" class="text-center"><span>Hola, mundo!</span></div>
             </div>
 
             <!-- Profile -->
             <div id="perfil">
-                <div id="foto"><img src="img/perfil-img.png" alt="Foto de Perfil"></div>
-                <div id="name"><span>Mi nombre</span></div>
+                <div id="foto" class="text-center"><img src="img/perfil-img.png" alt="Foto de Perfil"></div>
+                <div id="name" class="text-center"><span>Mi nombre</span></div>
             </div>
 
             <!-- Items -->
-            <div id="menu-items">
-                <div class="items">
-                    <a href="#">
+            <div id="menu-items" class="w-100">
+                <div class="items" class="w-100">
+                    <a href="#" class="d-flex align-items-center text-decoration-none text-light">
                         <div class="icon"><img src="img/icons/puzzle-icon.png" alt=""></div>
                         <div class="title">Proyectos</div>
                     </a>
@@ -38,15 +39,38 @@
 
                 <div class="item separador"></div>
 
-                <div class="items">
-                    <a href="#">
+                <div class="items" class="w-100">
+                    <a href="#" class="d-flex align-items-center text-decoration-none text-light">
                         <div class="icon"><img src="img/icons/puzzle-icon.png" alt=""></div>
                         <div class="title">Proyectos</div>
                     </a>
                 </div>
+
+                <div class="item separador"></div>
+
+                <div class="items" class="w-100">
+                    <a href="#" class="d-flex align-items-center text-decoration-none text-light">
+                        <div class="icon"><img src="img/icons/puzzle-icon.png" alt=""></div>
+                        <div class="title">Proyectos</div>
+                    </a>
+                </div>
+
+                <div class="item separador"></div>
+
+                <div class="items" class="w-100">
+                    <a href="#" class="d-flex align-items-center text-decoration-none text-light">
+                        <div class="icon"><img src="img/icons/puzzle-icon.png" alt=""></div>
+                        <div class="title">Proyectos</div>
+                    </a>
+                </div>
+
             </div>
         </div>
-
+        
+        <!-- Content -->
+        <div id="main-container" class="container"></div>
+        
+        <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     </body>
 </html>
