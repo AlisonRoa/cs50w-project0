@@ -21,6 +21,9 @@ body {
 
 #main-container {
   background: #5e42a6;
+  margin-left: 235px;
+  margin-top: 20px;
+  margin-right: 5px;
 }
 
 #sidemenu {
