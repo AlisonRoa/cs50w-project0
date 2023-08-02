@@ -1,16 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Metaetiquetas: meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     
     <title>Proyectos</title>
     <link rel="icon" type="image/png" href="/img/icons/puzzle-icon.png" />
 
     <!-- CSS -->
+    <link rel="stylesheet" href="menu/menu.css">
     <link rel="stylesheet" href="style/puzzle.css">
 </head>
 <body>
-    
+    <!-- Bootstrap grid structure -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- SideMenu -->
+            <section id="sidemenu" class="navbar d-flex flex-column align-items-center col-md-2">
+                
+                <!-- Header -->
+                <div id="header" class="w-100">
+                    <div id="title" class="text-center"><span>Hola, mundo!</span></div>
+                </div>
+
+                <!-- Profile -->
+                <a href="index.html" class="d-flex align-items-center text-decoration-none text-light">
+                    <div id="perfil">
+                        <div id="foto"><img src="img/perfil-img.png" alt="Foto de Perfil"></div>
+                        <div id="name" class="text-center"><span>Alison Roa</span></div>                                        
+                    </div>               
+                </a>   
+
+                <!-- Items -->
+                <div id="menu-items" class="w-100">
+                    <div class="items">
+                        <a href="#" class="d-flex align-items-center text-decoration-none text-light">
+                            <div class="icon"><img src="img/icons/puzzle-icon.png" alt=""></div>
+                            <div class="title">Proyectos</div>
+                        </a>
+                    </div>
+
+                    <div class="item separador"></div>
+
+                    <div class="items">
+                        <a href="pet.html" class="d-flex align-items-center text-decoration-none text-light">
+                            <div class="icon"><img src="img/icons/pet-icon.png" alt=""></div>
+                            <div class="title">Mascotas</div>
+                        </a>
+                    </div>
+
+                    <div class="item separador"></div>
+
+                    <div class="items">
+                        <a href="music.html" class="d-flex align-items-center text-decoration-none text-light">
+                            <div class="icon"><img src="img/icons/music-icon.png" alt=""></div>
+                            <div class="title">Musica</div>
+                        </a>
+                    </div>
+
+                    <div class="item separador"></div>
+
+                    <div class="items">
+                        <a href="game.html" class="d-flex align-items-center text-decoration-none text-light">
+                            <div class="icon"><img src="img/icons/game-icon.png" alt=""></div>
+                            <div class="title">Videojuegos</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Content -->
+            <div id="main-container" class="container col-md-10">                
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
