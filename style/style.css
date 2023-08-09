@@ -17,40 +17,17 @@
     position: relative;
 }
 
-.content-section {
-    height: 200px;
-    margin-bottom: 30px;
-    padding: 20px;
-    background: #421054;
-    border-radius: 8px;
+.card {
+    max-width: 17rem;
+    margin: 0 auto 30px;
+    padding: 10px;
+    height: 25rem;
     position: relative;
 }
 
-.content-section h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.content-section p {
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-.content-section a {
-    color: #fff;
-    text-decoration: underline;
+.card a {
     transition: color 0.3s;
     position: absolute;
     bottom: 20px;
     transform: translateX(-50%);
-}
-
-.content-section a:hover {
-    color: #fb93ff;    
-}
-
-.content-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
 }
