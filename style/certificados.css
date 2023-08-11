@@ -1,0 +1,35 @@
+.titulo {
+    text-align: center;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.titulo h1 {
+    margin: 50px;
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.custom-img-size {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+/*
+.custom-carousel-caption {
+    background-color: #421054e1;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px #421054e1;
+}
+.custom-carousel-title {
+    font-size: 24px;
+}
+.custom-carousel-text {
+    font-size: 16px;
+}
+*/
