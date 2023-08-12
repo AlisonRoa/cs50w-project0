@@ -1,0 +1,103 @@
+
+.titulo {
+    text-align: center;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.titulo h1 {
+    margin: 50px;
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.principal {
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 820px;
+    height: 510px;
+}
+
+.card {
+    --primary-clr: linear-gradient(to right, #7f4eb7, #b74e91);
+    --dot-clr: #BBC0FF;
+    --play: hsl(195, 74%, 62%);
+    width: 220px;
+    height: 170px;
+    border-radius: 10px;
+    background: none;
+    padding: 0;
+}
+   
+.card {
+    font-family: "Arial";
+    color: #fff;
+    display: grid;
+    cursor: pointer;
+    grid-template-rows: 50px 1fr;
+}
+   
+.card:hover .img-section {
+    transform: translateY(1em);
+    background: none;
+}
+   
+.card-desc {
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    top: -10px;
+    display: grid;
+    gap: 10px;
+    background: var(--primary-clr);
+}
+   
+.card-time {
+    font-size: 1.7em;
+    font-weight: 500;
+}
+   
+.img-section {
+    transition: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: hsl(195, 74%, 62%);
+}
+   
+.card-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+   
+.card-title {
+    flex: 1;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+   
+.card-menu {
+    display: flex;
+    gap: 4px;
+    margin-inline: auto;
+}
+   
+.card svg {
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+}
+   
+.card .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--dot-clr);
+}
+   
+.card .recent {
+    line-height: 0;
+    font-size: 0.8em;
+}
